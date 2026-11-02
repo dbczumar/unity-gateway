@@ -172,8 +172,9 @@ The native header-mod component tests cover an OpenUI surface supplied through `
 merging with managed headers and client surfaces; the mod ignores the process marker itself.
 `../test_agent_claude.py` covers the launcher's marker-to-header bridge.
 `../test_agent_codex.py` covers plain and smart-routed launch headers, Unix and Windows managed
-surface mappings, and profile preservation. These checks do not establish live OpenUI, Isaac, or
-gateway attribution coverage.
+surface mappings, existing administrator environment bindings, later managed surface edits, and
+profile preservation. These checks do not establish live OpenUI, Isaac, or gateway attribution
+coverage.
 The required Isaac feedback form, evidence submission, and background delivery
 notifications need a separate manual Isaac check. The gateway toggle journey does
 not cover the form or notification timing. Use the released Isaac skill with the
